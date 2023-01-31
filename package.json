@@ -1,0 +1,25 @@
+{
+  "name": "serverless-helloworld",
+  "version": "0.0.0",
+  "description": "Simple code example for serverless",
+  "scripts": {
+    "start": "serverless offline",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/codemeasandwich/serverless-helloworld.git"
+  },
+  "author": "Brian Shannon",
+  "license": "LGPL",
+  "bugs": {
+    "url": "https://github.com/codemeasandwich/serverless-helloworld/issues"
+  },
+  "homepage": "https://github.com/codemeasandwich/serverless-helloworld#readme",
+  "dependencies": {
+    "@types/aws-lambda": "^8.10.109",
+    "serverless-offline": "^12.0.4",
+    "serverless-plugin-typescript": "^2.1.4",
+    "typescript": "^4.9.4"
+  }
+}
